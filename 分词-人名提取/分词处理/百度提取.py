@@ -13,10 +13,9 @@ def get_chinese_name(text):
     """
 
     """识别人名"""
-    # 上一步获取到的ID AK SK
-    APP_ID = '20091238'
-    API_KEY = 'dekcbm5ZUP6iXn29BkfWDGvv'
-    SECRET_KEY = '1MOLtq8PvU15Qrtz5UGiyR7v0MWSkS1S'
+    APP_ID = '20091238' # 服务器名称
+    API_KEY = 'dekcbm5ZUP6iXn29BkfWDGvv' # 服务器序号
+    SECRET_KEY = '1MOLtq8PvU15Qrtz5UGiyR7v0MWSkS1S' # 服务器密码
 
     client = AipNlp(APP_ID, API_KEY, SECRET_KEY)
 
